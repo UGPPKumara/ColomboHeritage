@@ -1,0 +1,179 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-position: center;
+  height: 50vh;
+  text-align: center;
+  color: rgb(218, 96, 96);
+}
+header img{
+  height: 300px;
+}
+
+header h1 {
+  font-size: 4rem;
+  /* margin-top: 2rem; */
+}
+
+nav {
+  background-color: #222;
+  color: white;
+  padding: 1rem;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 600px;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+main {
+  padding: 2rem;
+}
+#home {
+  text-align: center;
+  width: 100%;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+}
+
+section li {
+  margin-bottom: 1rem;
+  width: 250px;
+}
+
+section li p {
+  text-align: center;
+  font-weight: 600;
+}
+section li p:hover{
+  color: rgb(182, 14, 3);
+}
+section img {
+  width: 100%;
+  height: 200px;
+
+}
+
+
+
+/* heritage css  */
+.topic{
+  text-align: center;
+}
+.btn{
+  height: 40px;
+  text-align: center;
+  padding-top: 10px;
+  align-items: center;
+
+}
+
+a {
+  text-decoration: none;
+  color: #222;
+}
+.main-sec{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+}
+.heritage-site {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+}
+.heritage-site img{
+  width: 500px;
+  height: 300px;
+}
+/* hotel css  */
+.hotel-main{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.hotel {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  width: 500px;
+}
+
+.hotel h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.hotel img {
+  height: 350px;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.hotel p {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+
+.hotel a {
+  display: block;
+  background-color: #222;
+  color: white
+}
+
+
+
+
+footer {
+  background-color: #222;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+
